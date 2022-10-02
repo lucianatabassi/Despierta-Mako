@@ -143,10 +143,10 @@ public class PlayerControler : MonoBehaviour
 
     if (cantEnergia >=5) {
         nivelEnergia.GetComponent<Image>().color = new Color (0, 240, 255);
-       /*MyCanvas.transform.GetChild(2).GetComponent<Image>().color = new Color (255, 0, 255);
-      MyCanvas.transform.GetChild(3).GetComponent<Image>().color = new Color (255, 0, 255);
-      MyCanvas.transform.GetChild(4).GetComponent<Image>().color = new Color (255, 0, 255);
-      MyCanvas.transform.GetChild(5).GetComponent<Image>().color = new Color (255, 0, 255);*/
+       MyCanvas.transform.GetChild(2).GetComponent<Image>().color = new Color (0, 240, 255);
+      MyCanvas.transform.GetChild(3).GetComponent<Image>().color = new Color (0, 240, 255);
+      MyCanvas.transform.GetChild(4).GetComponent<Image>().color = new Color (0, 240, 255);
+      MyCanvas.transform.GetChild(5).GetComponent<Image>().color = new Color (0, 240, 255);
     }
     
     }
