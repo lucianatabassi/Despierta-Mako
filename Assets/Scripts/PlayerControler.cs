@@ -58,7 +58,7 @@ public class PlayerControler : MonoBehaviour
 
     if (Input.GetKey("a")) 
     {
-        rb2D.velocity = new Vector2 (-velCorrer, rb2D.velocity.y); // en que direccion ir (eje Y se queda como esta)
+        rb2D.velocity = new Vector2 (-velCorrer  , rb2D.velocity.y); // en que direccion ir (eje Y se queda como esta)
         //gameObject.GetComponent <Rigidbody2D>().AddForce(new Vector2(-800f * Time.deltaTime, 0));
         gameObject.GetComponent <Animator>().SetBool("mooving", true);
         gameObject.GetComponent <Animator>().SetBool("shoot", false);
@@ -70,7 +70,7 @@ public class PlayerControler : MonoBehaviour
 
     if (Input.GetKey("d")) 
     {
-         rb2D.velocity = new Vector2 (velCorrer, rb2D.velocity.y); // en que direccion ir (eje y se queda como esta)
+         rb2D.velocity = new Vector2 (velCorrer , rb2D.velocity.y); // en que direccion ir (eje y se queda como esta)
        // gameObject.GetComponent <Rigidbody2D>().AddForce(new Vector2(800f * Time.deltaTime, 0));
         gameObject.GetComponent <Animator>().SetBool("mooving", true);
         gameObject.GetComponent <Animator>().SetBool("shoot", false);
@@ -94,7 +94,7 @@ public class PlayerControler : MonoBehaviour
 
     if (!Input.GetKey("a") && !Input.GetKey("d") && !Input.GetKeyDown("w") && !Input.GetKey ("space") ) { // esto es para que las animaciones no sigan funcionando cuando se dejan d presionar las teclas
          gameObject.GetComponent <Animator>().SetBool("mooving", false);
-         gameObject.GetComponent <Animator>().SetBool("jumping", false);
+        // gameObject.GetComponent <Animator>().SetBool("jumping", false);
            
     }
 
