@@ -22,7 +22,7 @@ public class PlayerControler : MonoBehaviour
     public Image  nivelEnergia;
     public int cantEnergia;
     public RectTransform posPrimerBarrita; // transform dentro del canvas para manjear ui
-    public Canvas MyCanvas; // para dibujar mas energia (hacer hijos)
+    public GameObject MyCanvas; // para dibujar mas energia (hacer hijos)
     public int Offset; // donde dibujar las barritas
 
 
@@ -32,21 +32,29 @@ public class PlayerControler : MonoBehaviour
     void Start()
     {
 
+        
+
         puntosVidaPlayer = vidaMaxPlayer;
         rb2D = GetComponent<Rigidbody2D>(); // mete el componente rigidbody dentro de la variable
 
         nivelEnergia.GetComponent<Image>().color = new Color (0, 240, 255 );
-        energia.GetComponent<Image>().color = new Color (0, 240, 255 );
+        energia.GetComponent<Image>().color = new Color (0, 240, 255  );
 
     // QUE ARRANQUE CON 8 BARRITAS DE ENTRADA
         for (int i = 0; i < cantEnergia; i++)
         
         {
             //crea una var llamado newenergia. es una instancia de energia  y la ubica en la primera posicion de la barra
-            Image NewEnergia = Instantiate(energia,posPrimerBarrita.position, Quaternion.identity );
+          Image NewEnergia = Instantiate(energia,posPrimerBarrita.position, Quaternion.identity );
 
-                NewEnergia.transform.parent = MyCanvas.transform;
-                posPrimerBarrita.position = new Vector2 (posPrimerBarrita.position.x , posPrimerBarrita.position.y + Offset);
+                NewEnergia.transform.parent = MyCanvas.transform; // pasar herencia
+                posPrimerBarrita.position = new Vector2 (posPrimerBarrita.position.x , posPrimerBarrita.position.y + Offset); 
+
+                /*if (i < cantEnergia - 4) {
+                    NewEnergia.GetComponent<Image>().color = new Color (255, 0, 255 );
+                } else {
+                    NewEnergia.GetComponent<Image>().color = new Color (0, 240, 255 );
+                }*/
                 
         }
 
@@ -121,32 +129,39 @@ public class PlayerControler : MonoBehaviour
        
     }*/
 
-    if (cantEnergia <=5 ) {
+    if (cantEnergia <=4 ) {
         //esto le cambia el color al hud de la energia
         nivelEnergia.GetComponent<Image>().color = new Color (255, 0, 255);
-        
+        /*MyCanvas.transform.GetChild(2).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);
+        MyCanvas.transform.GetChild(3).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);
+        MyCanvas.transform.GetChild(4).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);
+        MyCanvas.transform.GetChild(5).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);*/
 
       
         
     }
 
 
+
+
     // esto es para cambiarle el color a las barritas. En realidad cambia cuando le quedan 4 o menos pero si ponia eso me funcaba mal, por eso puse 7. Cuando las gastas todas tira errores porque hay un problema con los objetos hijos (las barritas xd) del canvas y al parecer esta detectando menos de las que hay pero igualmente funciona (obviamente no es la mejor opcion pero mientras funque). No se a largo plazo si va  a afectar en algo o no
-    if (MyCanvas.transform.childCount < 7  ) {
-        
+   /* if (MyCanvas.transform.childCount < 4 ) {
+         
         MyCanvas.transform.GetChild(2).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);
-        MyCanvas.transform.GetChild(3).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);
+       MyCanvas.transform.GetChild(3).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);
         MyCanvas.transform.GetChild(4).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);
         MyCanvas.transform.GetChild(5).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);
 
-    }
+    }*/
 
     if (cantEnergia >=5) {
         nivelEnergia.GetComponent<Image>().color = new Color (0, 240, 255);
-       MyCanvas.transform.GetChild(2).GetComponent<Image>().color = new Color (0, 240, 255);
+
+        
+      /*  MyCanvas.transform.GetChild(2).GetComponent<Image>().color = new Color (0, 240, 255);
       MyCanvas.transform.GetChild(3).GetComponent<Image>().color = new Color (0, 240, 255);
       MyCanvas.transform.GetChild(4).GetComponent<Image>().color = new Color (0, 240, 255);
-      MyCanvas.transform.GetChild(5).GetComponent<Image>().color = new Color (0, 240, 255);
+      MyCanvas.transform.GetChild(5).GetComponent<Image>().color = new Color (0, 240, 255);*/
     }
     
     }
