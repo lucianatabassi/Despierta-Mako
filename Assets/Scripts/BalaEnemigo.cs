@@ -25,6 +25,7 @@ public class BalaEnemigo : MonoBehaviour
 
        if (player) {
             player.TakeHit (hit);
+           
             Destroy(gameObject);
         }
     }

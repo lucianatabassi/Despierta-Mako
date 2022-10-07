@@ -25,6 +25,10 @@ public class PlayerControler : MonoBehaviour
     public GameObject MyCanvas; // para dibujar mas energia (hacer hijos)
     public int Offset; // donde dibujar las barritas
 
+    public GameObject[] Barras;
+
+    Animator anim;
+
 
     
 
@@ -32,16 +36,22 @@ public class PlayerControler : MonoBehaviour
     void Start()
     {
 
-        
-
+        anim = GetComponent<Animator>();
         puntosVidaPlayer = vidaMaxPlayer;
         rb2D = GetComponent<Rigidbody2D>(); // mete el componente rigidbody dentro de la variable
 
         nivelEnergia.GetComponent<Image>().color = new Color (0, 240, 255 );
         energia.GetComponent<Image>().color = new Color (0, 240, 255  );
 
+
+    for (int i = 0; i < cantEnergia; i++) {
+        Barras [i].gameObject.SetActive(true);
+        Barras[i].GetComponent<Image>().color = new Color (0, 240, 255  );
+
+    }
+
     // QUE ARRANQUE CON 8 BARRITAS DE ENTRADA
-        for (int i = 0; i < cantEnergia; i++)
+       /* for (int i = 0; i < cantEnergia; i++)
         
         {
             //crea una var llamado newenergia. es una instancia de energia  y la ubica en la primera posicion de la barra
@@ -50,13 +60,9 @@ public class PlayerControler : MonoBehaviour
                 NewEnergia.transform.parent = MyCanvas.transform; // pasar herencia
                 posPrimerBarrita.position = new Vector2 (posPrimerBarrita.position.x , posPrimerBarrita.position.y + Offset); 
 
-                /*if (i < cantEnergia - 4) {
-                    NewEnergia.GetComponent<Image>().color = new Color (255, 0, 255 );
-                } else {
-                    NewEnergia.GetComponent<Image>().color = new Color (0, 240, 255 );
-                }*/
                 
-        }
+                
+        }*/
 
     }
 
@@ -97,11 +103,17 @@ public class PlayerControler : MonoBehaviour
       if (Input.GetKey ("space")  && tocaPlataforma.enPlat )
     {
         rb2D.velocity = new Vector2 (rb2D.velocity.x, velSaltar);
+        
         gameObject.GetComponent <Animator>().SetBool("mooving", false);
+    } else if (Input.GetKey ("space"))
+    {
+        gameObject.GetComponent <Animator>().SetBool("jump", true);
     }
+
 
     if (!Input.GetKey("a") && !Input.GetKey("d") && !Input.GetKeyDown("w") && !Input.GetKey ("space") ) { // esto es para que las animaciones no sigan funcionando cuando se dejan d presionar las teclas
          gameObject.GetComponent <Animator>().SetBool("mooving", false);
+         gameObject.GetComponent <Animator>().SetBool("jump", false);
         // gameObject.GetComponent <Animator>().SetBool("jumping", false);
            
     }
@@ -116,11 +128,13 @@ public class PlayerControler : MonoBehaviour
     if (Input.GetKeyDown ("mouse 0")) { //dispara con el mouse
         if (cantEnergia > 0 ) { 
              Instantiate(Bullet, PuntoDisparo.position, transform.rotation);// crea objeto en base a la rotacion           
-             Destroy(MyCanvas.transform.GetChild(cantEnergia + 1).gameObject);
-                cantEnergia -= 1;
-            posPrimerBarrita.position = new Vector2 (posPrimerBarrita.position.x , posPrimerBarrita.position.y - Offset); // cuando se elimina una barrita, tambien se elimina su posicion. Esto es para que las nuevas se dibujen a partir de esa ultima que se elimino
+             /*Destroy(MyCanvas.transform.GetChild(cantEnergia + 1).gameObject);
                 
+            posPrimerBarrita.position = new Vector2 (posPrimerBarrita.position.x , posPrimerBarrita.position.y - Offset); // cuando se elimina una barrita, tambien se elimina su posicion. Esto es para que las nuevas se dibujen a partir de esa ultima que se elimino*/
+                cantEnergia -= 1;
         } 
+
+        Barras [cantEnergia].gameObject.SetActive(false);
        
     }
 
@@ -129,64 +143,39 @@ public class PlayerControler : MonoBehaviour
        
     }*/
 
+
+    // hud de energia se pone rosa
     if (cantEnergia <=4 ) {
-        //esto le cambia el color al hud de la energia
-        nivelEnergia.GetComponent<Image>().color = new Color (255, 0, 255);
-        /*MyCanvas.transform.GetChild(2).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);
-        MyCanvas.transform.GetChild(3).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);
-        MyCanvas.transform.GetChild(4).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);
-        MyCanvas.transform.GetChild(5).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);*/
+       for (int i = 0; i < cantEnergia; i++) {
+        Barras [i].gameObject.SetActive(true);
+        Barras[i].GetComponent<Image>().color = new Color (255, 0, 255 );
 
+    }
+
+    nivelEnergia.GetComponent<Image>().color = new Color (255, 0, 255);
       
-        
     }
 
-
-
-
-    // esto es para cambiarle el color a las barritas. En realidad cambia cuando le quedan 4 o menos pero si ponia eso me funcaba mal, por eso puse 7. Cuando las gastas todas tira errores porque hay un problema con los objetos hijos (las barritas xd) del canvas y al parecer esta detectando menos de las que hay pero igualmente funciona (obviamente no es la mejor opcion pero mientras funque). No se a largo plazo si va  a afectar en algo o no
-   /* if (MyCanvas.transform.childCount < 4 ) {
-         
-        MyCanvas.transform.GetChild(2).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);
-       MyCanvas.transform.GetChild(3).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);
-        MyCanvas.transform.GetChild(4).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);
-        MyCanvas.transform.GetChild(5).gameObject.GetComponent<Image>().color = new Color (255, 0, 255);
-
-    }*/
-
+    //vuelve a celeste
     if (cantEnergia >=5) {
+        for (int i = 0; i < cantEnergia; i++) {
+        Barras [i].gameObject.SetActive(true);
+        Barras[i].GetComponent<Image>().color = new Color (0, 240, 255);
+
+    }
         nivelEnergia.GetComponent<Image>().color = new Color (0, 240, 255);
-
-        
-      /*  MyCanvas.transform.GetChild(2).GetComponent<Image>().color = new Color (0, 240, 255);
-      MyCanvas.transform.GetChild(3).GetComponent<Image>().color = new Color (0, 240, 255);
-      MyCanvas.transform.GetChild(4).GetComponent<Image>().color = new Color (0, 240, 255);
-      MyCanvas.transform.GetChild(5).GetComponent<Image>().color = new Color (0, 240, 255);*/
     }
     
     }
 
-    
 
-//SOLO SALTA CUANDO TOCA EL PISO 
-  /* private void OnCollisionEnter2D (Collision2D collision) {
-        if (collision.transform.tag =="ground" ) {
-            canJump = true;
-            
-        }
-        /*if (collision.transform.tag =="platform" ) {
-            canJump = true;
-            
-        }
-           
-    }*/
 
 
     //ESTO NO SE Ni COMO FUNCA LA VERDAD 
    private void OnTriggerEnter2D (Collider2D col) { //cuando collider entra en contacto con otro collider
 
-   Transform posBarrita = posPrimerBarrita; 
-   int cantEnergiaRecogida = 1;
+   //Transform posBarrita = posPrimerBarrita; 
+   //int cantEnergiaRecogida = 1;
 
 
         //JUNTAR BALAS (ENERGIA)
@@ -194,8 +183,14 @@ public class PlayerControler : MonoBehaviour
               Destroy(col.gameObject);
     
               cantEnergia +=1;
+
+    for (int i = 0; i < cantEnergia; i++) {
+        Barras [i].gameObject.SetActive(true);
+
+    }
+
     
-        for (int i = 0; i < cantEnergiaRecogida; i++)
+        /*for (int i = 0; i < cantEnergiaRecogida; i++)
         
         {
             //crea una var llamado newenergia. es una instancia de energia  y la ubica en la primera posicion de la barra
@@ -207,7 +202,10 @@ public class PlayerControler : MonoBehaviour
         }
            
         
-        } 
+        } */
+
+    
+       }
        
     }
 
@@ -216,6 +214,12 @@ public class PlayerControler : MonoBehaviour
             transform.parent = collision.transform;
 
         }
+     if (collision.gameObject.tag == "balaEnemigo" ) { // animacion de daño
+        anim.SetTrigger ("hurt");
+        
+    }
+
+
     }
 
     private void OnCollisionExit2D (Collision2D collision) { // q el personaje ya no se mueva con la plataforma cuando ya se bajo
@@ -227,8 +231,9 @@ public class PlayerControler : MonoBehaviour
 
 
     public void TakeHit (float golpe) { // personaje pierde vida
+
         puntosVidaPlayer -= golpe;
-       if (puntosVidaPlayer <=0) {
+         if (puntosVidaPlayer <=0) {
             Destroy(gameObject);
         }
 
@@ -238,4 +243,5 @@ public class PlayerControler : MonoBehaviour
 
 
    
+
 }

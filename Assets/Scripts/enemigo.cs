@@ -21,6 +21,7 @@ public class enemigo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         PuntosVida = vidaMax;
 
         player_pos = GameObject.Find("Personaje").transform; // setear la posicion del personaje
@@ -29,6 +30,9 @@ public class enemigo : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (player_pos == null) { // cuando muere el personaje que deja de ejecutarse el codigo de seguimiento
+            return;
+        }
         // para dividir codigo (movimiento de enemigo)
         #region
 

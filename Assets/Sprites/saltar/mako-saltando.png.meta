@@ -1,0 +1,3148 @@
+fileFormatVersion: 2
+guid: 7ff3dd4bdbccf4642951a9125dd6ee99
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mako-saltando_0
+      rect:
+        serializedVersion: 2
+        x: 1439
+        y: 30
+        width: 756
+        height: 1271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314b3c90664f0984ba24f91bf0f706a6
+      internalID: 204639601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_1
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 1299
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee0095d5e55ef3499806d20be2c813e
+      internalID: 838238129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_2
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 1299
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75bdc70453905b48b190f1906c6a8ea
+      internalID: 529366762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 46
+        width: 700
+        height: 1248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff1360a33ebb2b4192c39d34291d26a
+      internalID: 1841287296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_4
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1292
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df52880bf7c81444a4d4e3ce591e805
+      internalID: -1180300577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_5
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 1293
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 940edffd1d70da146956361f6cb1853a
+      internalID: -1668247844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_6
+      rect:
+        serializedVersion: 2
+        x: 2870
+        y: 1279
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5738fe4252bcd488ed065e8cdd1c67
+      internalID: 663305827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_7
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 1281
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39a28b7b7c2e0140a813951f8069c6f
+      internalID: 1021642653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_8
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 1280
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34bf0045ee31844a981dcafcb194f72
+      internalID: 548631013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_9
+      rect:
+        serializedVersion: 2
+        x: 3612
+        y: 44
+        width: 691
+        height: 1239
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4adf155d56fa6ee459f900ff3b7e080b
+      internalID: 1786776315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_10
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 1281
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fe5edf29bad0041a03d195c923b187
+      internalID: 199088669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_11
+      rect:
+        serializedVersion: 2
+        x: 4061
+        y: 1280
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c42223dad6cfd44bf26523ce872bc0
+      internalID: 2101558898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_12
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 213
+        width: 621
+        height: 1067
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7511fed1ec102b4a8322998581b0faf
+      internalID: 1768412505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_13
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 1277
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a604291640df6654e99cad05219a9066
+      internalID: 523049954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_14
+      rect:
+        serializedVersion: 2
+        x: 3608
+        y: 505
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cd51f685b81ad43ac7950a86f4cdb7
+      internalID: 1617808348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_15
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 438
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55175f2737d66374c8170b77ab342ed4
+      internalID: -87029628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_16
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 462
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f94b7d447a47f974c851427b78f20c09
+      internalID: -238863729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_17
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 454
+        width: 49
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca986e6c8e9798e4f9324feeb0c44dea
+      internalID: -88512876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_18
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 448
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a15d1234713d5c64da466d4a26043ba4
+      internalID: 1478795230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_19
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 444
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412477070936e37498d9b29c13a7f1a6
+      internalID: -16921576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_20
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 439
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470ed34f70a05a04580d8d1fba863e96
+      internalID: -281030095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_21
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 418
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c6a43eb746891b4492c01925c6e4f0f
+      internalID: -991721202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_22
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 415
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1841f92d34ed933419150dd8e7f7d88f
+      internalID: -1903965755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_23
+      rect:
+        serializedVersion: 2
+        x: 2459
+        y: 415
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b06106088c50f24c8d6b898000e4ea3
+      internalID: 668323358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_24
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 426
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335fed64d4fd4284bbd2d49e20f69c94
+      internalID: -589416041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_25
+      rect:
+        serializedVersion: 2
+        x: 2491
+        y: 422
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2886767a98cbe40aadf83d03259bf7
+      internalID: 1014734531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_26
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 415
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd8f01bbe9a9fd49924285bb2f2a60d
+      internalID: 483978554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_27
+      rect:
+        serializedVersion: 2
+        x: 2421
+        y: 386
+        width: 5
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845b86e3a3f44fc458a3fe7916613b06
+      internalID: 2058564546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_28
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 408
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28154deb0292114da61c423f7835e91
+      internalID: -1792239961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_29
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 417
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d335cc48ff1ed0d4992fdda7bbca11c0
+      internalID: -1002248336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_30
+      rect:
+        serializedVersion: 2
+        x: 3615
+        y: 397
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb07b761b8ad8245b972c00ae4c3275
+      internalID: -893896483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_31
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 409
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69deb31dae27ac04e9f9a3872f4be6b0
+      internalID: 917539520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_32
+      rect:
+        serializedVersion: 2
+        x: 2562
+        y: 404
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ac8688de9427b48b8ef6331e00de9e
+      internalID: -1571162939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_33
+      rect:
+        serializedVersion: 2
+        x: 3501
+        y: 399
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99eb7e4d302c8144f95025b509fffad9
+      internalID: -1071429171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_34
+      rect:
+        serializedVersion: 2
+        x: 3525
+        y: 361
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5830a459724aaeb43b242d8ec51ca1f8
+      internalID: 961337637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_35
+      rect:
+        serializedVersion: 2
+        x: 3579
+        y: 395
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcf6a6b2541e7664ba663f1800c8e009
+      internalID: 491947105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_36
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 384
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6ca2957d30815429f8d7655b23949b
+      internalID: 1584195248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_37
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 391
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e773cedb1bff7ed42a440f7ae0f22d3a
+      internalID: 765461179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_38
+      rect:
+        serializedVersion: 2
+        x: 2493
+        y: 391
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5594a4cdcc6cf6044973fa47b4494411
+      internalID: 1501830722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_39
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 393
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2bca41f68aff94f8709c0ff1d11df2
+      internalID: -1577994276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_40
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 391
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b76e188632827439a8af938132ef4e
+      internalID: 1151590258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_41
+      rect:
+        serializedVersion: 2
+        x: 3574
+        y: 391
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 154d850889cbca840b998ec208c26aaf
+      internalID: 646052029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_42
+      rect:
+        serializedVersion: 2
+        x: 3608
+        y: 379
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b88983b9429494daf56072e6a98e2d
+      internalID: 1706323333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_43
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 353
+        width: 5
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3d478e99fe3e44994b23b74d2a2743
+      internalID: 505326770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_44
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 382
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5c265bd5d8b1245875f69a25010d33
+      internalID: 1769961878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_45
+      rect:
+        serializedVersion: 2
+        x: 2506
+        y: 373
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55324f3c46210b41a87b1ef43d038c8
+      internalID: 1980706425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_46
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 375
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cf0c3c1f297784a93573b00c8fbb24
+      internalID: 544807909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_47
+      rect:
+        serializedVersion: 2
+        x: 3512
+        y: 384
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd85411280b3004389be9811ee93f54
+      internalID: -2046482991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_48
+      rect:
+        serializedVersion: 2
+        x: 3561
+        y: 382
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5176c22d4f5b23148a250fe47428523e
+      internalID: 2028040114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_49
+      rect:
+        serializedVersion: 2
+        x: 3597
+        y: 384
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb01c16d7e077b4b89436bcf8cfcd3d
+      internalID: 161215504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_50
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 350
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7061c77419dba8e4bb9149ce42dd8ff0
+      internalID: 157962369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_51
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 299
+        width: 41
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edf7ae82f68069542b8a13e2e0f836db
+      internalID: 611122549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_52
+      rect:
+        serializedVersion: 2
+        x: 3550
+        y: 375
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b9512dde859bdf49ade3227d594c77f
+      internalID: -877680814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_53
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 373
+        width: 7
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadceb51b1cc1b2438fdbec75ce4b3b2
+      internalID: -783895654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_54
+      rect:
+        serializedVersion: 2
+        x: 3473
+        y: 334
+        width: 5
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc0da4a2374cac458e321a7f2243429
+      internalID: 1590621288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_55
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 364
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d49eb5d7557c140bf678a57a4fdecd
+      internalID: 1638995501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_56
+      rect:
+        serializedVersion: 2
+        x: 3523
+        y: 368
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f7f1553c569e249b06bc92679f932b
+      internalID: 467423756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_57
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 350
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba71d161e526e5743be5083dce526e65
+      internalID: -1573308710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_58
+      rect:
+        serializedVersion: 2
+        x: 3606
+        y: 355
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6de52a59545144399e4a4076e28813
+      internalID: 388681329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_59
+      rect:
+        serializedVersion: 2
+        x: 3621
+        y: 354
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aca7f811156a4443a69f448d0dab5f1
+      internalID: 1857510080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_60
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 285
+        width: 9
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcc61b833b51c54c8364d239b4b6900
+      internalID: 1461195096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_61
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 290
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96df304e6fe694846b620d27fd015212
+      internalID: -1874988446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_62
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 323
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9145be9f2710da42bc1fa15a3d274b0
+      internalID: 1849798763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_63
+      rect:
+        serializedVersion: 2
+        x: 3548
+        y: 335
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6436473ac5b29714aaef9da5cfd0732d
+      internalID: -1974441220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_64
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 316
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20d27526e287654986b4413303fdf58
+      internalID: 131932890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_65
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 306
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec968f9b5435277448a26691c9426619
+      internalID: -1491597461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_66
+      rect:
+        serializedVersion: 2
+        x: 3522
+        y: 298
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0826121964bcc741a8227948ba1e3a4
+      internalID: 1052457896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_67
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 267
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68991a5991956114d829507f489eab10
+      internalID: -1682452182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_68
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 283
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96334c54b85d9274db7b10737eb5fe47
+      internalID: -488674472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_69
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 272
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00b18e7f3812c74685e2056d87c5691
+      internalID: 241998067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_70
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 285
+        width: 7
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65cb9b4028eb57a43bc6348b77c7cd92
+      internalID: -1920940316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_71
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 287
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79577d4d17b97d42b2e316947a6d670
+      internalID: 1758134684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_72
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 251
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3c08f2103ecde45bbc24627e2c2682
+      internalID: 765147875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_73
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 265
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3a0c8ff0788fd644bbe8baad97642a8
+      internalID: 1430234885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_74
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 271
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce117ba4da2a644f9ac3fdf482e6cc0
+      internalID: 1703310387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_75
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 268
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32920f14c1e7a44ea371e52b8dbe8d1
+      internalID: -1935477344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_76
+      rect:
+        serializedVersion: 2
+        x: 3487
+        y: 233
+        width: 8
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ee8ed7ee1c30740a7f9b3e94054da9
+      internalID: 705296191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_77
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 247
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0bb80cc901e4340940e5665eb80b7f
+      internalID: -1759792775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_78
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 246
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20a0f88c444297849b4e986a0b37ca7c
+      internalID: -1914788541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_79
+      rect:
+        serializedVersion: 2
+        x: 2434
+        y: 246
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c621bcab1696399448356d99f2b53f65
+      internalID: 739489782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_80
+      rect:
+        serializedVersion: 2
+        x: 2493
+        y: 234
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06902459cf37cb418a71a6f89056f94
+      internalID: -486161426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_81
+      rect:
+        serializedVersion: 2
+        x: 3529
+        y: 228
+        width: 7
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d56321bac658cf40b377d67dc6cf407
+      internalID: -618774051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_82
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 227
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03af0d9e64a9fc4ea3a477603dea627
+      internalID: -715067878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_83
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 242
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496406c702a64ea419a74d8a1721271a
+      internalID: 1083835632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_84
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 204
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c616864aa9a124fb16b8ffcea96c58
+      internalID: 286494432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_85
+      rect:
+        serializedVersion: 2
+        x: 2464
+        y: 205
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef70d071747cba8488d54298b857a381
+      internalID: 1028966378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_86
+      rect:
+        serializedVersion: 2
+        x: 2513
+        y: 200
+        width: 8
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05c12065cb23ce04b92027e738389f37
+      internalID: -1720106504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_87
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 200
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9150b6906a455094687fe618ff48d45a
+      internalID: 1813387378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_88
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 205
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36d01f93c8b990439387c1a12c7dd8a
+      internalID: -658808277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_89
+      rect:
+        serializedVersion: 2
+        x: 2814
+        y: 193
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27526453fa1c3074e98e034c5fc4ce44
+      internalID: 1929779526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_90
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 218
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa5f513b6fa8464dba7d6af807439b3
+      internalID: 348625646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_91
+      rect:
+        serializedVersion: 2
+        x: 2829
+        y: 197
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0941402ed19bd4baa4516c6b2818f0
+      internalID: 954712467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_92
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 186
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653aa41e47d597945ba898e27e96b5e7
+      internalID: -644380724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_93
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 187
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96eed0db6e2cef84fad8d9728cd2a571
+      internalID: -1665821552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_94
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 189
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa4c2fe117fef74f968d79b80393ab4
+      internalID: 1617961413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_95
+      rect:
+        serializedVersion: 2
+        x: 2838
+        y: 171
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a62084d4cb05ff4799641346f18d865
+      internalID: 1406627106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_96
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 162
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220f4df0305f33d44bcf0bd4d26e2c5f
+      internalID: -1165377872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_97
+      rect:
+        serializedVersion: 2
+        x: 2679
+        y: 164
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128f1ecab21ee5949b7d0a8c0b1f41f7
+      internalID: -2026587461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_98
+      rect:
+        serializedVersion: 2
+        x: 3547
+        y: 173
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a8163d831638f4ebf9553e6b42ce91
+      internalID: -743286954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_99
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 166
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91af9627760511749895e64b425fee6d
+      internalID: -526290253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_100
+      rect:
+        serializedVersion: 2
+        x: 2741
+        y: 161
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531e92f1d78ac3e48819034f05f53f43
+      internalID: 1370431508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_101
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 133
+        width: 14
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f42843060269622489cae2f732a6eed9
+      internalID: 2062086000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_102
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 159
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ee4944330e472428c001d96f9a6bb3
+      internalID: 143308972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_103
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 154
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed044fad684268b449cedf775dfb793c
+      internalID: -1554892655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_104
+      rect:
+        serializedVersion: 2
+        x: 3543
+        y: 144
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe961bfee1c1d244b4df503b3babc7a
+      internalID: 1029013102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_105
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 143
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71000bdc18aa4ff488d8075115adba21
+      internalID: -656450317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_106
+      rect:
+        serializedVersion: 2
+        x: 2758
+        y: 144
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c64ddf51d9294488feff42ec668416
+      internalID: -1664506808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_107
+      rect:
+        serializedVersion: 2
+        x: 3568
+        y: 137
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a554e3719501f634bae468b95b776be8
+      internalID: 641897633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_108
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 134
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d89f1f95a6c174ea2be95b23462fe9
+      internalID: 1684091070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_109
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 128
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445871121a244d44fb4acf37150d4638
+      internalID: -2139783353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_110
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 126
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f20ce79e3c58424b960b0b66c04c17a
+      internalID: -620382375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_111
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 121
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0153529e84d290e4ea2e9d596671d051
+      internalID: 972819576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_112
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 115
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cf3fa9c8d07a84fb17bd0bbfceb795
+      internalID: 605708508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_113
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 101
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79bd1480cff8c445bc09dcceb4fa7f8
+      internalID: -2074397269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_114
+      rect:
+        serializedVersion: 2
+        x: 2769
+        y: 91
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93cff8e42a2078b41a8ee6b3af323a9f
+      internalID: -1859405816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_115
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 83
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5088cabf44ce3f444afbb0c6b6919cd8
+      internalID: -1488798646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_116
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 74
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf491bc6520373468f4081690941a3b
+      internalID: 1445346949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_117
+      rect:
+        serializedVersion: 2
+        x: 2856
+        y: 88
+        width: 39
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4660dc0901a8f47b79ad178ee148bf
+      internalID: 1500207257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_118
+      rect:
+        serializedVersion: 2
+        x: 2910
+        y: 97
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5b9dff201185f4f8a9d260261f2bb8
+      internalID: 29524307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_119
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 85
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54705a92da9788c44abb7e0625fdc735
+      internalID: -459625366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_120
+      rect:
+        serializedVersion: 2
+        x: 2717
+        y: 65
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e914ad270d17c4c82518ef582ce427
+      internalID: 851806137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_121
+      rect:
+        serializedVersion: 2
+        x: 2926
+        y: 70
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d4d0476cee44d4191e550f8e2c9573
+      internalID: -237619498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_122
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 41
+        width: 9
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d2021cd9df58049ad533832d6ef1f9
+      internalID: -639293015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_123
+      rect:
+        serializedVersion: 2
+        x: 1736
+        y: 35
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ce1f22b296a4f48b280a9166cae390
+      internalID: 1634217506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_124
+      rect:
+        serializedVersion: 2
+        x: 1782
+        y: 23
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67f0d1770eefe3440b975011c50cc555
+      internalID: -526466078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_125
+      rect:
+        serializedVersion: 2
+        x: 3765
+        y: 12
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da11ecdfc76d2fe40a509709c48e78e3
+      internalID: 706906257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_126
+      rect:
+        serializedVersion: 2
+        x: 3989
+        y: 29
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7fd65598dde864f98fa19f2d653d6e
+      internalID: -537463204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_127
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 7
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9254143c02c8d343a0123b41d8f72d4
+      internalID: -77617482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_128
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 16
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1aa1a77fdf38d04db73d25653e6bb90
+      internalID: 966505004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_129
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 7
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b71a2556efddf44eb35b27120070192
+      internalID: 379833737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_130
+      rect:
+        serializedVersion: 2
+        x: 3834
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b9974f4ca235ca40b70f6616ae48eae
+      internalID: 996224480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_131
+      rect:
+        serializedVersion: 2
+        x: 3841
+        y: 23
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656151b18961f984599d5a6b4f105e5f
+      internalID: 392857771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_132
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 14
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552d3bd7a6484444c897a659b8b09f07
+      internalID: 1401962204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_133
+      rect:
+        serializedVersion: 2
+        x: 3877
+        y: 5
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd1d119f5144524d963d4d6082ece5f
+      internalID: -1960556871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_134
+      rect:
+        serializedVersion: 2
+        x: 3933
+        y: 18
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6df1d2c8e908c8945bb43178e219a5b8
+      internalID: 205153503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_135
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 24
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d951684dc2c18d4d87cc1b45cc45ebf
+      internalID: -1775465610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mako-saltando_136
+      rect:
+        serializedVersion: 2
+        x: 4007
+        y: 0
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574c97f6791f91c4da1038e933daa2d2
+      internalID: -978448236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mako-saltando_82: -715067878
+      mako-saltando_135: -1775465610
+      mako-saltando_5: -1668247844
+      mako-saltando_4: -1180300577
+      mako-saltando_39: -1577994276
+      mako-saltando_84: 286494432
+      mako-saltando_104: 1029013102
+      mako-saltando_77: -1759792775
+      mako-saltando_65: -1491597461
+      mako-saltando_86: -1720106504
+      mako-saltando_83: 1083835632
+      mako-saltando_96: -1165377872
+      mako-saltando_115: -1488798646
+      mako-saltando_12: 1768412505
+      mako-saltando_130: 996224480
+      mako-saltando_21: -991721202
+      mako-saltando_91: 954712467
+      mako-saltando_25: 1014734531
+      mako-saltando_11: 2101558898
+      mako-saltando_0: 204639601
+      mako-saltando_102: 143308972
+      mako-saltando_134: 205153503
+      mako-saltando_49: 161215504
+      mako-saltando_40: 1151590258
+      mako-saltando_70: -1920940316
+      mako-saltando_87: 1813387378
+      mako-saltando_132: 1401962204
+      mako-saltando_62: 1849798763
+      mako-saltando_36: 1584195248
+      mako-saltando_35: 491947105
+      mako-saltando_71: 1758134684
+      mako-saltando_92: -644380724
+      mako-saltando_14: 1617808348
+      mako-saltando_112: 605708508
+      mako-saltando_126: -537463204
+      mako-saltando_31: 917539520
+      mako-saltando_1: 838238129
+      mako-saltando_52: -877680814
+      mako-saltando_129: 379833737
+      mako-saltando_85: 1028966378
+      mako-saltando_55: 1638995501
+      mako-saltando_44: 1769961878
+      mako-saltando_98: -743286954
+      mako-saltando_8: 548631013
+      mako-saltando_125: 706906257
+      mako-saltando_32: -1571162939
+      mako-saltando_133: -1960556871
+      mako-saltando_57: -1573308710
+      mako-saltando_88: -658808277
+      mako-saltando_53: -783895654
+      mako-saltando_111: 972819576
+      mako-saltando_61: -1874988446
+      mako-saltando_66: 1052457896
+      mako-saltando_123: 1634217506
+      mako-saltando_59: 1857510080
+      mako-saltando_127: -77617482
+      mako-saltando_54: 1590621288
+      mako-saltando_24: -589416041
+      mako-saltando_136: -978448236
+      mako-saltando_73: 1430234885
+      mako-saltando_10: 199088669
+      mako-saltando_22: -1903965755
+      mako-saltando_76: 705296191
+      mako-saltando_28: -1792239961
+      mako-saltando_18: 1478795230
+      mako-saltando_56: 467423756
+      mako-saltando_99: -526290253
+      mako-saltando_114: -1859405816
+      mako-saltando_79: 739489782
+      mako-saltando_63: -1974441220
+      mako-saltando_100: 1370431508
+      mako-saltando_17: -88512876
+      mako-saltando_26: 483978554
+      mako-saltando_80: -486161426
+      mako-saltando_81: -618774051
+      mako-saltando_107: 641897633
+      mako-saltando_93: -1665821552
+      mako-saltando_29: -1002248336
+      mako-saltando_16: -238863729
+      mako-saltando_47: -2046482991
+      mako-saltando_109: -2139783353
+      mako-saltando_121: -237619498
+      mako-saltando_95: 1406627106
+      mako-saltando_50: 157962369
+      mako-saltando_118: 29524307
+      mako-saltando_108: 1684091070
+      mako-saltando_120: 851806137
+      mako-saltando_101: 2062086000
+      mako-saltando_60: 1461195096
+      mako-saltando_94: 1617961413
+      mako-saltando_122: -639293015
+      mako-saltando_64: 131932890
+      mako-saltando_119: -459625366
+      mako-saltando_30: -893896483
+      mako-saltando_69: 241998067
+      mako-saltando_13: 523049954
+      mako-saltando_90: 348625646
+      mako-saltando_3: 1841287296
+      mako-saltando_6: 663305827
+      mako-saltando_75: -1935477344
+      mako-saltando_72: 765147875
+      mako-saltando_43: 505326770
+      mako-saltando_15: -87029628
+      mako-saltando_42: 1706323333
+      mako-saltando_58: 388681329
+      mako-saltando_51: 611122549
+      mako-saltando_74: 1703310387
+      mako-saltando_89: 1929779526
+      mako-saltando_37: 765461179
+      mako-saltando_9: 1786776315
+      mako-saltando_117: 1500207257
+      mako-saltando_7: 1021642653
+      mako-saltando_2: 529366762
+      mako-saltando_45: 1980706425
+      mako-saltando_113: -2074397269
+      mako-saltando_38: 1501830722
+      mako-saltando_34: 961337637
+      mako-saltando_33: -1071429171
+      mako-saltando_124: -526466078
+      mako-saltando_78: -1914788541
+      mako-saltando_46: 544807909
+      mako-saltando_131: 392857771
+      mako-saltando_27: 2058564546
+      mako-saltando_19: -16921576
+      mako-saltando_48: 2028040114
+      mako-saltando_68: -488674472
+      mako-saltando_23: 668323358
+      mako-saltando_105: -656450317
+      mako-saltando_97: -2026587461
+      mako-saltando_110: -620382375
+      mako-saltando_128: 966505004
+      mako-saltando_116: 1445346949
+      mako-saltando_106: -1664506808
+      mako-saltando_20: -281030095
+      mako-saltando_67: -1682452182
+      mako-saltando_103: -1554892655
+      mako-saltando_41: 646052029
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
