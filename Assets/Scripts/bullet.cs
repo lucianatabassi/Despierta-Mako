@@ -1,26 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class bullet : MonoBehaviour
 {
    // private Rigidbody2D MyRB;
     public float speed;
     public float hit = 1;
-    // Start is called before the first frame update
+
+ 
     void Start()
     {
-        //MyRB = GetComponent<Rigidbody2D>();
+        
     }
 
-    // Update is called once per frame
+   
     void Update()
     {
-        //MyRB.velocity = new Vector2(+speed * Time.deltaTime, 0);
-       // MyRB.velocity = transform.right * speed * Time.deltaTime;
-       // Destroy(gameObject, 5f);
+        
         transform.position += transform.right * speed * Time.deltaTime; //transforma y varia la posicion el objeto
-       
     }
 
     private void OnCollisionEnter2D (Collision2D collision) {
