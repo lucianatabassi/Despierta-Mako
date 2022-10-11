@@ -11,6 +11,7 @@ TagManager:
   - plataformaMovible
   - balaEnemigo
   - barra
+  - enemigo1
   layers:
   - Default
   - TransparentFX
