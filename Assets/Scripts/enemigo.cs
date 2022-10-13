@@ -18,6 +18,7 @@ public class enemigo : MonoBehaviour
     public Transform PuntoDisparoEnemy;
     public BalaEnemigo bala;
     
+    
     // Start is called before the first frame update
     void Start()
     {

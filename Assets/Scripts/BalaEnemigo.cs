@@ -6,18 +6,19 @@ public class BalaEnemigo : MonoBehaviour
 {
     public float velBala;
     public float hit = 1;
-
+    
     public Transform PuntoDisparoEnemy;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Invoke("Destruir_",2);
     }
 
     // Update is called once per frame
     void Update()
     {
         transform.position += -transform.right *velBala* Time.deltaTime;
+         
     }
 
    private void OnCollisionEnter2D (Collision2D collision) {
@@ -28,4 +29,6 @@ public class BalaEnemigo : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    
 }

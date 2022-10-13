@@ -25,6 +25,8 @@ public class bullet : MonoBehaviour
     private void OnCollisionEnter2D (Collision2D collision) {
         var enemy = collision.collider.GetComponent<enemigo>(); // el script enemigo se enlaza con este
         var enemigo1 = collision.collider.GetComponent<Enemigo1>();
+
+        
         if (enemy) {
             enemy.TakeHit(hit); //nivel de daño que le pongamos
             Destroy(gameObject);
