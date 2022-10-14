@@ -21,6 +21,9 @@ public class Suki : MonoBehaviour
     private bool cooling; // chequear si suki se calmo
     private float intTimer;
 
+    [Header("Sonidos")]
+    public GameObject PeleaSonido;
+
 
     void Awake () {
 
@@ -43,7 +46,8 @@ public class Suki : MonoBehaviour
             enRango = false;
         }
 
-        if (enRango == false) {
+        if (enRango == false) { // cuando mako no este dentro del rango, que suki no ataque
+            ani.SetBool("sukiWalk", false);
             StopAttack();
         }
     }
@@ -52,12 +56,13 @@ public class Suki : MonoBehaviour
     void sukiLogic() {
         dist = Vector2.Distance (transform.position, mako.transform.position); // calcula dist entre mako y suki
 
-        if (dist > distAtaque) {
+        if (dist > distAtaque) { //si la dist entre ellas es mayor que la dist de ataque entonces q se mueva hacia mako
             Move();
             StopAttack();
         } 
         else if (distAtaque >= dist && cooling == false) {
             Ataque();
+            
         }
 
         if (cooling) {
@@ -85,10 +90,12 @@ public class Suki : MonoBehaviour
     }
 
     void Move () {
+        ani.SetBool ("sukiWalk", true);
         if (!ani.GetCurrentAnimatorStateInfo(0).IsName ("suki-peleando_2")) {
-            Vector2 makoPosition = new Vector2 (mako.transform.position.x, transform.position.y );
-
+            Vector2 makoPosition = new Vector2 (mako.transform.position.x, transform.position.y ); // que se mueva a la pos de mako
+           
             transform.position = Vector2.MoveTowards(transform.position, makoPosition, vel * Time.deltaTime);
+            
         }
     }
 
@@ -96,7 +103,9 @@ public class Suki : MonoBehaviour
         timer = intTimer; // resetea el tiempo cuando mako entra en rango
         sukiAtaque = true;
 
+        ani.SetBool ("sukiWalk", false);
         ani.SetBool ("sukiAttack", true);
+        NuevoSonido(PeleaSonido, 4f);
     }
 
 
@@ -126,6 +135,10 @@ public class Suki : MonoBehaviour
 
     public void TriggerCooling () {
         cooling = true;
+    }
+
+    void NuevoSonido (GameObject prefab, float duracion = 5f) {
+         Destroy (Instantiate(prefab), duracion);
     }
 
  

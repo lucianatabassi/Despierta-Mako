@@ -22,17 +22,23 @@ public class PlayerControler : MonoBehaviour
     public int cantEnergia;
     public GameObject[] Barras;
 
-    Animator anim;
+    public Animator anim;
+    public bool isAttacking = false;
+    public static PlayerControler scriptMako;
 
-    public AudioSource clipPU;
-    public AudioSource clipBala;
-    public AudioSource clipDolor;
-    public GameObject Dolor;
-    //public AudioSource clipCorrer;
-    //public GameObject Pasos;
+    [Header("Sonidos")]
+    public GameObject DisparoSonido;
+    public GameObject PUSonido;
+    public GameObject[] HeridaSonido;
+    
+
+
    
      
 
+    private void Awake() { // para acceder al script desde cualquier parte
+        scriptMako = this;
+    }
     
 
  
@@ -42,7 +48,7 @@ public class PlayerControler : MonoBehaviour
         anim = GetComponent<Animator>();
         puntosVidaPlayer = vidaMaxPlayer;
         rb2D = GetComponent<Rigidbody2D>(); // mete el componente rigidbody dentro de la variable
-        clipDolor = GetComponent<AudioSource>();
+        //clipDolor = GetComponent<AudioSource>();
         
 
         nivelEnergia.GetComponent<Image>().color = new Color (0, 240, 255 );
@@ -71,7 +77,7 @@ public class PlayerControler : MonoBehaviour
         gameObject.GetComponent <Animator>().SetBool("fight", false);
        //gameObject.GetComponent <SpriteRenderer>().flipX = true;
        transform.eulerAngles = new Vector3 (0,180, 0); // para voltear al personaje
-
+       
        
        
         
@@ -87,6 +93,7 @@ public class PlayerControler : MonoBehaviour
         gameObject.GetComponent <Animator>().SetBool("fight", false);
         //gameObject.GetComponent <SpriteRenderer>().flipX = false;
         transform.eulerAngles = new Vector3 (0,0, 0); // para voltear al personaje
+       
         
     }
     
@@ -132,7 +139,7 @@ public class PlayerControler : MonoBehaviour
         if (cantEnergia > 0 ) { 
              Instantiate(Bullet, PuntoDisparo.position, transform.rotation);// crea objeto en base a la rotacion           
                 cantEnergia -= 1;
-               clipBala.Play();
+            NuevoSonido(DisparoSonido, 1f);
                 
         } 
         
@@ -145,9 +152,12 @@ public class PlayerControler : MonoBehaviour
        
     }*/
 
-    if (Input.GetKeyDown ("mouse 1")) { // con boton derecho del mouse pelea
+        Ataque();
+    /*if (Input.GetKeyDown ("mouse 1")) { // con boton derecho del mouse pelea
+
+        
         gameObject.GetComponent <Animator>().SetBool("fight", true);
-    }
+    }*/
 
 
     // hud de energia se pone rosa
@@ -174,6 +184,12 @@ public class PlayerControler : MonoBehaviour
     
     }
 
+    void Ataque() {
+        if (Input.GetKeyDown ("mouse 1") && !isAttacking) {
+            isAttacking = true;
+        }
+    }
+
 
 
 
@@ -185,7 +201,7 @@ public class PlayerControler : MonoBehaviour
               Destroy(col.gameObject);
     
               cantEnergia +=2;
-              clipPU.Play();
+              NuevoSonido(PUSonido, 1f);
 
 
     for (int i = 0; i < cantEnergia; i++) {
@@ -199,8 +215,8 @@ public class PlayerControler : MonoBehaviour
        if (col.gameObject.tag == "balas" && cantEnergia == 8) {
         Destroy(col.gameObject);
     
-              cantEnergia +=1;
-              clipPU.Play();
+              cantEnergia +=1;          
+              NuevoSonido(PUSonido, 1f);
 
 
     for (int i = 0; i < cantEnergia; i++) {
@@ -236,7 +252,7 @@ public class PlayerControler : MonoBehaviour
 
     public void TakeHit (float golpe) { // personaje pierde vida
         puntosVidaPlayer -= golpe;
-        Instantiate(Dolor);
+       NuevoSonido(HeridaSonido[0], 1f);
         gameObject.GetComponent <Animator>().SetBool("hurt", true);
          if (puntosVidaPlayer <=0) {
             Destroy(gameObject);
@@ -247,12 +263,17 @@ public class PlayerControler : MonoBehaviour
 
     public void golpeSuki (float daño) { // daño de suki
         puntosVidaPlayer -= daño;
+        NuevoSonido(HeridaSonido[Random.Range(0, 2)], 1f);
     if (puntosVidaPlayer <=0) {
          Destroy(gameObject);
     }
 
 
 
+    }
+
+    void NuevoSonido (GameObject prefab, float duracion = 5f) {
+         Destroy (Instantiate(prefab), duracion);
     }
 
 
