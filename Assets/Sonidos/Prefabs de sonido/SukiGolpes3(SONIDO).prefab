@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5730801238494748760
+--- !u!1 &1864300917622223978
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,43 +8,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2018159051487052494}
-  - component: {fileID: 323621571575777069}
+  - component: {fileID: 1293993020800859942}
+  - component: {fileID: 687081098392115233}
   m_Layer: 0
-  m_Name: Dolor (SONIDO)
+  m_Name: SukiGolpes3(SONIDO)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2018159051487052494
+--- !u!4 &1293993020800859942
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5730801238494748760}
+  m_GameObject: {fileID: 1864300917622223978}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 525.82776, y: 42.40134, z: -1.1247871}
+  m_LocalPosition: {x: 1.8977503, y: -0.6742213, z: 0.1646667}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &323621571575777069
+--- !u!82 &687081098392115233
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5730801238494748760}
+  m_GameObject: {fileID: 1864300917622223978}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: f2c9e389139f7524fb310515ba24d003, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6657381d7a091bc4a89e53311495e837, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.552
+  m_Volume: 0.444
   m_Pitch: 1
   Loop: 0
   Mute: 0

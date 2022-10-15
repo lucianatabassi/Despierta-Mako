@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class Suki : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class Suki : MonoBehaviour
     private float intTimer;
 
     [Header("Sonidos")]
-    public GameObject PeleaSonido;
+    public GameObject[] PeleaSonido;
 
 
     void Awake () {
@@ -62,7 +63,7 @@ public class Suki : MonoBehaviour
         } 
         else if (distAtaque >= dist && cooling == false) {
             Ataque();
-            
+           
         }
 
         if (cooling) {
@@ -72,22 +73,27 @@ public class Suki : MonoBehaviour
     }
 
     void OnTriggerEnter2D(Collider2D trig) {
+    var player = trig.GetComponent<PlayerControler>();
 
-        var player = trig.GetComponent<PlayerControler>();
+       
 
         if (trig.gameObject.tag == "Player") {
             mako = trig.gameObject; // guarda la pos de mako
             enRango = true;
+           // Flip();
+
         }
 
-        
-
-       if (player) {
+        if (player) {
             player.golpeSuki (hit);
-           
+            NuevoSonido(PeleaSonido[Random.Range(0, 3)], 1f);
             
         }
+
+       
     }
+
+    
 
     void Move () {
         ani.SetBool ("sukiWalk", true);
@@ -105,7 +111,9 @@ public class Suki : MonoBehaviour
 
         ani.SetBool ("sukiWalk", false);
         ani.SetBool ("sukiAttack", true);
-        NuevoSonido(PeleaSonido, 4f);
+
+        
+        
     }
 
 
@@ -137,9 +145,20 @@ public class Suki : MonoBehaviour
         cooling = true;
     }
 
+   /* private void Flip() {
+        Vector3 rotation = transform.eulerAngles;
+        if (transform.position.x > mako.transform.position.x)
+        {
+            rotation.y = 180;
+        } else {
+            rotation.y = 0;
+        }
+
+        transform.eulerAngles = rotation;
+    }*/
+
     void NuevoSonido (GameObject prefab, float duracion = 5f) {
          Destroy (Instantiate(prefab), duracion);
     }
-
  
 }

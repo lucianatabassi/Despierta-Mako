@@ -5,7 +5,7 @@ using UnityEngine;
 public class disparoEnemigo1 : MonoBehaviour
 {
     //este script acciona la bala
-    public balaEnemigo1 LaBala;
+    public GameObject LaBala;
     public Transform PuntoDisparo;
 
     public float tiempoDisparoE;
@@ -16,8 +16,10 @@ public class disparoEnemigo1 : MonoBehaviour
 
         if (tiempoDisparoE >= 2)
     {
-        Instantiate(LaBala, PuntoDisparo.position, transform.rotation);
+       GameObject prefab = Instantiate(LaBala, PuntoDisparo.position, transform.rotation) as GameObject;
         tiempoDisparoE = 0;
+
+        Destroy(prefab, 2f);
         
         
     }
