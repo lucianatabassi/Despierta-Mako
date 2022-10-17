@@ -298,7 +298,7 @@ public class PlayerControler : MonoBehaviour
 
     public void CambiarEscena()
     {
-      SceneManager.LoadScene(2);
+      SceneManager.LoadScene(3);
 
       
     }

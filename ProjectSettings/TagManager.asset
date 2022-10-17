@@ -12,6 +12,7 @@ TagManager:
   - balaEnemigo
   - barra
   - enemigo1
+  - aparato
   layers:
   - Default
   - TransparentFX
@@ -26,7 +27,7 @@ TagManager:
   - Suelo
   - TriggerArea
   - Suki
-  - 
+  - EnemigoESCENA2
   - 
   - 
   - 

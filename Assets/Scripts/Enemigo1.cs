@@ -9,9 +9,10 @@ public class Enemigo1 : MonoBehaviour
     public float velocidad;
     public float distancia_frenado;
     public float distancia_regreso;
+    
     //Vida enemigo
     public float PuntosVidaE;  //Conteo de vida
-    public float VidaMaximaE = 2;  //Vida máxima
+    public float VidaMaximaE = 2;  //Vida maxima
 /* 
     //Disparo
     public Transform punto_instancia;
@@ -51,14 +52,14 @@ public class Enemigo1 : MonoBehaviour
          if(Vector2.Distance(transform.position, player_pos.position)<distancia_regreso)
         {
         transform.position = Vector2.MoveTowards(transform.position, player_pos.position, -velocidad*Time.deltaTime);// que traslade su posicion hacia atras cuando Mako este muy cerca --- al restarle a velocidad, va hacia atras
-        //gameObject.GetComponent <Animator>().SetBool("enemyWalk", true);
+        gameObject.GetComponent <Animator>().SetBool("enemyWalk", true);
         
 
          } 
          if(Vector2.Distance(transform.position, player_pos.position)>distancia_frenado && Vector2.Distance(transform.position, player_pos.position)<distancia_regreso)
         {
         transform.position = transform.position;// que se quede quieto entre la distancia de seguir a Mako y la de regreso cuando Mako esta muy cerca
-       
+       //
          }
 #endregion
         //COMPORTAMIENTO ENEMIGO - MIRAR A MAKO
@@ -66,11 +67,11 @@ public class Enemigo1 : MonoBehaviour
        //Flip
        if(player_pos.position.x>this.transform.position.x)
        {
-        
+
             this.transform.eulerAngles = new Vector3 (0, 0, 0);
 
     } else {
-     
+ 
             this.transform.eulerAngles = new Vector3 (0, 180, 0);
     }
           // this.transform.localScale = new Vector2(3,3); //cuando el enemigo esta hacia la derecha
