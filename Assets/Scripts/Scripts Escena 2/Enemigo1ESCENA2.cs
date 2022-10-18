@@ -13,6 +13,7 @@ public class Enemigo1ESCENA2 : MonoBehaviour
     public float PuntosVidaE;  //Conteo de vida
     public float VidaMaximaE = 2;  //Vida máxima
 
+    private bool caminando = true;
     private Animator anim;
 
 
@@ -30,23 +31,13 @@ public class Enemigo1ESCENA2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       Movimiento();
-        //COMPORTAMIENTO ENEMIGO - MIRAR A MAKO
-#region 
-       //Flip
-       if(player_pos.position.x>this.transform.position.x)
-       {
-        
-            this.transform.eulerAngles = new Vector3 (0, 0, 0);
-
-    } else {
-     
-            this.transform.eulerAngles = new Vector3 (0, 180, 0);
-    }
-          // this.transform.localScale = new Vector2(3,3); //cuando el enemigo esta hacia la derecha
-          // this.transform.localScale = new Vector2(-3,3); //cuando esta hacia la izq 
-
-#endregion
+        if (caminando)
+        {
+            Movimiento();
+            Flip();
+        }
+       
+      
     }
 
     /*public void TakeHit(float deschipeado)
@@ -79,6 +70,26 @@ public class Enemigo1ESCENA2 : MonoBehaviour
         transform.position = transform.position;// que se quede quieto entre la distancia de seguir a Mako y la de regreso cuando Mako esta muy cerca
        
          }
+         
+#endregion
+    }
+
+    private void Flip() {
+          //COMPORTAMIENTO ENEMIGO - MIRAR A MAKO
+#region 
+       //Flip
+       if(player_pos.position.x>this.transform.position.x)
+       {
+        
+            this.transform.eulerAngles = new Vector3 (0, 0, 0);
+
+    } else {
+     
+            this.transform.eulerAngles = new Vector3 (0, 180, 0);
+    }
+          // this.transform.localScale = new Vector2(3,3); //cuando el enemigo esta hacia la derecha
+          // this.transform.localScale = new Vector2(-3,3); //cuando esta hacia la izq 
+
 #endregion
     }
 
@@ -88,11 +99,12 @@ public class Enemigo1ESCENA2 : MonoBehaviour
             anim.SetTrigger("enemigoDeschipeado");
             anim.SetBool("enemyWalk", false);
             anim.SetBool("enemyShoot", false);
-       
-          
-        
-         }
+            caminando = false;
+            DisparoEnemigo1ESCENA2.disparando = false;
+            Destroy(gameObject, 5f);
         }
         
     }
+
+}
 

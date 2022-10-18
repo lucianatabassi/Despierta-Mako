@@ -947,16 +947,16 @@ MonoBehaviour:
   m_YDamping: 9.9
   m_ZDamping: 1
   m_TargetMovementOnly: 1
-  m_ScreenX: 0.32
+  m_ScreenX: 0.19
   m_ScreenY: 0.53
   m_CameraDistance: 10
-  m_DeadZoneWidth: 0.1
+  m_DeadZoneWidth: 0.12
   m_DeadZoneHeight: 0.23
   m_DeadZoneDepth: 0
   m_UnlimitedSoftZone: 0
-  m_SoftZoneWidth: 0.46
+  m_SoftZoneWidth: 0.38
   m_SoftZoneHeight: 0.78
-  m_BiasX: -0.26900005
+  m_BiasX: 0
   m_BiasY: 0.4999998
   m_CenterOnActivate: 0
   m_GroupFramingMode: 2
@@ -2047,7 +2047,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.7292347, y: -0.06669116, z: -10}
+  m_LocalPosition: {x: -6.727893, y: -0.0666914, z: -10}
   m_LocalScale: {x: 0.32862982, y: 0.07239325, z: 0.32862982}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2098,7 +2098,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ceba0596b8e2f9546b1bcdd40d259ad4, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 9d387ae1f7cfa5f4193b15cb28af9ac6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.424
   m_Pitch: 1
@@ -2918,7 +2918,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 2.52}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2929,7 +2929,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.09, y: 2.5}
+  m_Size: {x: 0.09, y: 5.91}
   m_EdgeRadius: 0
 --- !u!4 &938741453
 Transform:
@@ -3591,7 +3591,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1110473701}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -10.208662, y: -2.14, z: -10}
+  m_LocalPosition: {x: -7.6305933, y: -1.6853428, z: -10}
   m_LocalScale: {x: 2.1621878, y: 0.89818877, z: 0.89818877}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4270,7 +4270,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -3.1, y: 2.52}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4281,7 +4281,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.09, y: 2.5}
+  m_Size: {x: 0.09, y: 5.91}
   m_EdgeRadius: 0
 --- !u!4 &1298286962
 Transform:
